@@ -1,0 +1,14 @@
+PyUnit Test runner suitable for use with Google App Engine.
+Drop this file into your project directory, create a directory called tests in the same 
+directory and create a blank file in that called __init__.py
+You directory structure should be something like this:
+
+  - root
+    - app.yaml
+    - main.py
+    - test.py
+    - tests
+      - __init__.py
+    
+You should now be able to just drop valid PyUnit test cases into the tests
+directory and they should be run when you run test.py via the command line.
